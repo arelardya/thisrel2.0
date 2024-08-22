@@ -8,6 +8,7 @@ import Head from "next/head";
 import Typewriter from 'typewriter-effect'; 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import { Analytics } from "@vercel/analytics/react";
 
 // Add custom CSS for carousel indicators
 const carouselStyles = `
